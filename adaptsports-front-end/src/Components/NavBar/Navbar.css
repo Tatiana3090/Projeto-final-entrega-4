@@ -1,0 +1,27 @@
+.navBarApp {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0 0 0;
+  background-color: #fff;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.list li {
+    font-family: Montserrat;
+    font-weight: bold;
+    padding:0 20px;
+}
+
+.list a {
+    Color: #36A9E1;
+    text-decoration: none;
+}
+
+.list a:hover {
+    Color: #00D154;
+}
