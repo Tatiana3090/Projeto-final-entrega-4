@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "montserrat-bold";
+  src: url("../../Assets/Fonts/Montserrat-Light.ttf");
+}
+
 .navBarApp {
   display: flex;
   justify-content: space-around;
@@ -12,16 +17,28 @@
 }
 
 .list li {
-    font-family: Montserrat;
-    font-weight: bold;
-    padding:0 20px;
+  font-family: "montserrat-bold";
+  font-weight: bold;
+  padding: 0 20px;
 }
 
-.list a {
-    Color: #36A9E1;
+.list .a {
+  color: #36a9e1;
+  text-decoration: none;
+  font-size: large;
+}
+
+.list .a:hover {
+  color: #00d154;
+}
+
+.Login{
     text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to right, #36a9e1,#00d154);
+    padding:10px;
+    border-radius: 5px;
 }
-
-.list a:hover {
-    Color: #00D154;
+.Login:hover{
+    color: #1c1c1c;
 }
