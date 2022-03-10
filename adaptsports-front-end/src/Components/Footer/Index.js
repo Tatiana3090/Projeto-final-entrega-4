@@ -3,7 +3,7 @@ import Logo from '../LogoFooter'
 import logofooter from '../../Assets/Logos/logo branco.svg';
 import { TiSocialFacebook } from 'react-icons/ti';
 import { AiOutlineTwitter } from 'react-icons/ai';
-import { AiFillInstagram } from 'react-icons/ai';
+import * as ai from 'react-icons/ai';
 import './Footer.css';
 
 export default function Footer() {
@@ -18,7 +18,7 @@ export default function Footer() {
         <h3 className='titulofooter'>Redes Sociais</h3>
         <h6>
           <TiSocialFacebook color='white' size='50px' />
-          <AiFillInstagram color='white' size='50px' />
+          <ai.AiFillInstagram color='white' size='50px' />
           <AiOutlineTwitter color='white' size='50px' />
         </h6>
         <h5 className='titulofooter'>ADAPT SPORTS - Desenvolvido por Squad 12.</h5>
