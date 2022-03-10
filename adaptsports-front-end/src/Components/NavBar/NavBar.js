@@ -1,9 +1,23 @@
 import React from 'react';
+import Logo from '../LogoNav'
+import logoImg from '../../Assets/Logos/logo azul.svg'
+import './Navbar.css';
 
 export default function NavBar() {
- return (
-   <div>
-    
-   </div>
- );
+  return (
+    <header className='navBarApp'>
+      <div>
+        <a href='/'><Logo logo={logoImg} /></a>
+      </div>
+      <div>
+        <ul className='list'>
+          <li><a className='a' href='/'>Home</a></li>
+          <li><a className='a' href='/sobrenos'>Sobre Nós</a></li>
+          <li><a className='a' href='/locais'>Locais</a></li>
+          <li><a className='a' href='/esportes'>Esportes</a></li>
+          <li><a className='Login' href='/'>LogIn</a></li>
+        </ul>
+      </div>
+    </header>
+  );
 }
