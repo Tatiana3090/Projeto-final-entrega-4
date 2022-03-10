@@ -13,8 +13,6 @@ export default function Locais() {
       <div className='cards'>
         <div className='cardContainer'>
           <Card img={img1}/>
-          <Card img={img1}/>
-          <Card img={img1}/>
         </div>
         
       </div>
