@@ -1,7 +1,6 @@
 import React from 'react';
-import Logo from '../Logo'
+import Logo from '../LogoNav'
 import logoImg from '../../Assets/Logos/logo azul.svg'
-import logoImg2 from '../../Assets/Logos/logo verde.svg'
 import './Navbar.css';
 
 export default function NavBar() {

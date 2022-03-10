@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "daysone";
+  src: url("../../Assets/Fonts/DaysOne-Regular.ttf");
+}
+.footerGlobal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to right, #36a9e1, #00d154);
+}
+
+.redesociais {
+  color: #fff;
+  font-family: "daysone";
+  letter-spacing:1px;
+}
+
+.fale-con {
+  color: #fff;
+}
+.fale-con h3 {
+  margin-bottom:-10px;
+  font-family: "daysone";
+  letter-spacing:1px;
+}
+.fale-con h6 {
+  font-family: Montserrat, sans-serif;
+  letter-spacing:1px;
+}
