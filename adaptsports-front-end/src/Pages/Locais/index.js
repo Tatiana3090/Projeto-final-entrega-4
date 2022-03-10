@@ -12,10 +12,17 @@ export default function Locais() {
       </div>
       <div className='cards'>
         <div className='cardContainer'>
-          <Card img={ imgCard }/>
+          <Card img={imgCard} /><br/>
+          <Card img={imgCard} /><br/>
+          <Card img={imgCard} />
         </div>
-        
-      </div>  
+        <div className='cardContainer'>
+          <Card img={imgCard} /><br/>
+          <Card img={imgCard} /><br/>
+          <Card img={imgCard} />
+        </div>
+
+      </div>
     </section>
 
   );
