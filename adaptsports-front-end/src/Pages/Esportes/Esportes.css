@@ -1,0 +1,16 @@
+.divisor h1{
+    background:linear-gradient(to right, #36a9e1,#00d154);
+    padding:20px;
+    border-radius: 5px;
+    width:800px;
+    text-align: center;
+    font-family: 'daysone';
+    color:#fff;
+    margin-bottom: 0;
+}
+.ContainerCardsEsp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
