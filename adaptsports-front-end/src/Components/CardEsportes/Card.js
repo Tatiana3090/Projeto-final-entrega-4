@@ -1,5 +1,5 @@
 import React from 'react';
-import './CardLocais.css'
+import './CardEsportes.css'
 
 export default function Card(props) {
     return (

@@ -13,7 +13,6 @@ export default function Footer() {
       <div className="logofooter">
         <Logo logo={logofooter} alt='logofooter' />
       </div>
-
       <div className='redesociais' align='center'>
         <h3 className='titulofooter'>Redes Sociais</h3>
         <h6>
@@ -23,7 +22,6 @@ export default function Footer() {
         </h6>
         <h5 className='titulofooter'>ADAPT SPORTS - Desenvolvido por Squad 12.</h5>
       </div>
-
       <div className='fale-con'>
         <h3 className='titulofooter'>Fale Conosco</h3>
         <h6>E-mail para contato:<br/>
