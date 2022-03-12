@@ -57,18 +57,17 @@ export default function SobreNos() {
       </section>
 
       <div className="divisor">
-        <h3>#Squad12</h3>
-        <p></p>
+        <h3>#Squad12</h3><br /><br />
       </div>
       <div className="cardsSobreContainer">
-        <Cards img={Carlos} titulo="Carlos Alberto Martins" />
-        <Cards img={Tati} titulo="Tatiana Maroto"/>
-        <Cards img={Erica} titulo="Erica Graciano"/>
+        <Cards img={Carlos} titulo="Carlos Alberto Martins" /><br /><br />
+        <Cards img={Tati} titulo="Tatiana Maroto" /><br /><br />
+        <Cards img={Erica} titulo="Erica Graciano" /><br /><br />
       </div>
       <div className="cardsSobreContainer">
-        <Cards img={Patrick} titulo="Patrick Baldez"/>
-        <Cards img={Victor} titulo="Victor Persike"/>
-        <Cards img={Emanuel} titulo="Emanuel Cleiton"/>
+        <Cards img={Patrick} titulo="Patrick Baldez" /><br /><br />
+        <Cards img={Victor} titulo="Victor Persike" /><br /><br />
+        <Cards img={Emanuel} titulo="Emanuel Cleiton" /><br /><br />
       </div>
     </div>
   );
