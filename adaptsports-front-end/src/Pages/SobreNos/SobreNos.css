@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items:center;
     text-align: center;
-    margin: 100px 50px;
+    margin: 50px 50px;
     color: #00d154;
   }
   .textoEsquerda h3 {
@@ -20,7 +20,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 100px 50px;
+    margin: 50px 50px;
     color: #36a9e1;
   }
   .textoDireita h3 {
@@ -37,14 +37,18 @@
     align-items: center;
     margin-bottom: 30px;
   }
+  .divisor{
+    margin-bottom:-30px;
+  }
 }
+
 @media (max-width: 900px) {
   .textoEsquerda {
     display: flex;
     flex-direction: column;
     align-items:center;
     text-align: center;
-    margin: 100px 50px;
+    margin: 50px 50px;
     color: #00d154;
   }
   .textoEsquerda h3 {
@@ -60,7 +64,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 100px 50px;
+    margin: 50px 50px;
     color: #36a9e1;
   }
   .textoDireita h3 {
@@ -76,6 +80,9 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
+  }
+  .divisor{
+    margin-bottom:-30px;
   }
 }
 
