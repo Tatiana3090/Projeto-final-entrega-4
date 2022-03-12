@@ -13,9 +13,9 @@
 .wrapper {
   display: flex;
   width: 70%;
-  justify-content: center; 
+  justify-content: center;
 }
-.centralizacao{
+.centralizacao {
   display: flex;
   flex-direction: column;
 }
@@ -93,7 +93,7 @@
   border-radius: 5px;
   cursor: pointer;
   color: #36a9e1;
-  font-family: 'daysone';
+  font-family: "daysone";
   font-size: 15px;
 }
 
@@ -116,9 +116,7 @@
   margin: 10px 0;
 }
 
-.ButtonCard{
+.ButtonCard {
   display: flex;
   flex-direction: column;
 }
-
-

@@ -9,9 +9,6 @@
   justify-content: center;
   align-items: center;
 }
-.ButtonCard {
-  max-width:150px;
-}
 .wrapper {
   display: flex;
   width: 70%;
@@ -27,7 +24,7 @@
   align-items: center;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
   transition: 0.5s ease-in-out;
-  font-family: 'organo';
+  font-family: "daysone";
   font-size: 20px;
   text-align: center;
 }
@@ -67,54 +64,18 @@
   position: absolute;
 }
 
-.card .info {
-  max-width: 230px;
-  margin: 160px 0px 0px 0px;
-  position: relative;
-  z-index: 3;
-  color: #fff;
-  opacity: 0;
-  transform: translateY(30px);
-  transition: 0.5s all;
-}
-
-.info{
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-}
-.info button {
-  border: none;
-}
-
-.card:hover .info {
-  opacity: 1;
-  transform: translateY(0px);
-}
-.card .info h1 {
-  font-family: "organo";
-  margin: 0;
-}
-.card .info p {
-  font-family: Montserrat, sans-serif;
-  letter-spacing: 1px;
-  font-size: 15px;
-  margin: 10px 0;
-}
-
-.card .info .ButtonCard {
-  border-radius: 5px;
-  font-family: "organo";
-  text-decoration: none;
-  padding: 1rem 1rem;
+.info a {
   background: #fff;
-  color: #000;
-  font-size: 14px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.4s ease-in-out;
+  text-decoration: none;
+  color: #36a9e1;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
 }
-
-.card .info .ButtonCard:hover {
+.info a:hover {
+  cursor: pointer;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+.info h5{
+  letter-spacing:1px;
 }
