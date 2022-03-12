@@ -2,20 +2,20 @@ import React from 'react';
 import Logo from '../LogoNav'
 import logoImg from '../../Assets/Logos/logo azul.svg'
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   return (
     <header className='navBarApp'>
       <div>
-        <a href='/'><Logo logo={logoImg} /></a>
-      </div>
+        <Link to='/'><Logo logo={logoImg} /></Link>      </div>
       <div>
         <ul className='list'>
-          <li><a className='a' href='/'>Home</a></li>
-          <li><a className='a' href='/sobrenos'>Sobre Nós</a></li>
-          <li><a className='a' href='/locais'>Locais</a></li>
-          <li><a className='a' href='/esportes'>Esportes</a></li>
-          <li><a className='Login' href='/'>LogIn</a></li>
+          <li><Link className='a' to='/'>Home</Link></li>
+          <li><Link className='a' to='/sobrenos'>Sobre Nós</Link></li>
+          <li><Link className='a' to='/locais'>Locais</Link></li>
+          <li><Link className='a' to='/esportes'>Esportes</Link></li>
+          <li><Link className='Login' to='/'>LogIn</Link></li>
         </ul>
       </div>
     </header>
