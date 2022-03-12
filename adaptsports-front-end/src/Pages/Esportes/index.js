@@ -8,7 +8,7 @@ export default function Esportes() {
     <div>
       <div className="divisor">
         <h3>Esportes</h3>
-        <p>Aqui Você fica informado sobre todos os esportes adaptados que pode estar praticando nos locais registrados em nossa "pagina Locais".</p>
+        <p>Aqui você fica informado sobre todos os esportes adaptados que pode estar praticando nos locais registrados em nossa "pagina Locais".</p>
       </div>
       <div className="ContainerCardsEsp">
         <Card img={ImgCardsTeste} /><br />
