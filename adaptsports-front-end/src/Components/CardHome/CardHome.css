@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
 }
-.ButtonCard {
+a {
   max-width:150px;
 }
 .wrapper {
@@ -27,7 +27,7 @@
   align-items: center;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
   transition: 0.5s ease-in-out;
-  font-family: 'organo';
+  font-family: 'daysone';
   font-size: 20px;
   text-align: center;
 }
@@ -92,7 +92,7 @@
   transform: translateY(0px);
 }
 .card .info h1 {
-  font-family: "organo";
+  font-family: "daysone";
   margin: 0;
 }
 .card .info p {
@@ -102,9 +102,9 @@
   margin: 10px 0;
 }
 
-.card .info .ButtonCard {
+.card .info a {
   border-radius: 5px;
-  font-family: "organo";
+  font-family: "daysone";
   text-decoration: none;
   padding: 1rem 1rem;
   background: #fff;
@@ -115,6 +115,6 @@
   transition: 0.4s ease-in-out;
 }
 
-.card .info .ButtonCard:hover {
+.card .info a:hover {
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
 }

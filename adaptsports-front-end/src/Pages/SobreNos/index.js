@@ -47,7 +47,7 @@ export default function SobreNos() {
 
       <section className="textoEsquerda">
         <h3>COMO?</h3>
-        <p>Consultando o nosso site você pode acessar informações sobre tudo relacionado a prática esportiva para Pessoas Com Deficiência, desde atividades desportivas até mesmo atividades voltadas para competições.<br /><br />
+        <p>Consultando o nosso site você pode acessar informações sobre tudo relacionado a prática esportiva para Pessoas Com Deficiência, desde atividades desportivas até mesmo atividades voltadas para competições.<br /><br /><br />
 
           - Na página "locais" você se informa a respeito de contatos, horários, descrição dos ambientes e das atividades ofertadas e também pode marcar uma visita agendada.<br /><br />
 
